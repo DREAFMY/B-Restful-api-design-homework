@@ -25,16 +25,8 @@ public class StudentService {
         }
     }
 
-    public int getLength(){
-        return studentList.size();
-    }
-
     public List<Student> getALL() {
         return studentList;
-    }
-
-    public void addStudent(Student student) {
-        studentList.add(student);
     }
 
     public void removeStudent(int id) {
